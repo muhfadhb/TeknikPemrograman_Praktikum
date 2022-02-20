@@ -38,3 +38,4 @@ public class Soal5 {
  * berhenti, dan memperbolehkan mobil lainnya dari arah bersebrangan untuk jalan. Begitu 
  * terus sebaliknya.
  * */
+
