@@ -10,13 +10,12 @@ public class Item {
 	private String name;
 	
 	private Item() {
-		name = "Ipin";					// Isi variabel name dengan kata "Ipin"
+		name = "Ipin";					//nama variabel diisi "Ipin"
 	}
 
 	public Item(String name) {
-		this.name = new Item().name;	/* Panggil method Item, agar output yang dihasilkan adalah "Ipin"
-										   dan tidak mengikuti isi String di main class */
-		System.out.println(this.name);	// Tampilkan isi string ke layar
+		this.name = new Item().name;	
+		System.out.println(this.name);	
 	}
 
 }
